@@ -9,6 +9,7 @@ Welcome to the Docker Learnings Repository! This Repository contains all the Sou
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
 - [Dockerizing Applications](#dockerizing-applications)
+  - [JavaScript Application](#javascript-application)
   - [MERN Application](#mern-application)
   - [React Application](#react-application)
   - [Vite Application](#vite-application)
@@ -50,80 +51,49 @@ The repository is organized into the following directories:
 
 ## Dockerizing Applications
 
+### JavaScript Application
+
+The `hello-docker` directory contains a JavaScript application. Follow the steps below to dockerize it:
+
+1. Navigate to the `hello-docker` directory:
+    ```bash
+    cd hello-docker
+    ```
+
 ### MERN Application
 
-The `mern-app` directory contains a full-stack MERN application. Follow the steps below to dockerize it:
+The `mern-docker` directory contains a full-stack MERN application. Follow the steps below to dockerize it:
 
-1. Navigate to the `mern-app` directory:
+1. Navigate to the `mern-docker` directory:
     ```bash
-    cd mern-app
-    ```
-
-2. Build the Docker image:
-    ```bash
-    docker build -t mern-app .
-    ```
-
-3. Run the Docker container:
-    ```bash
-    docker run -p 3000:3000 mern-app
+    cd mern-docker
     ```
 
 ### React Application
 
-The `react-app` directory contains a React application. Follow the steps below to dockerize it:
+The `react-docker` directory contains a React application. Follow the steps below to dockerize it:
 
-1. Navigate to the `react-app` directory:
+1. Navigate to the `react-docker` directory:
     ```bash
-    cd react-app
-    ```
-
-2. Build the Docker image:
-    ```bash
-    docker build -t react-app .
-    ```
-
-3. Run the Docker container:
-    ```bash
-    docker run -p 3000:3000 react-app
+    cd react-docker
     ```
 
 ### Vite Application
 
-The `vite-app` directory contains a Vite application. Follow the steps below to dockerize it:
+The `vite-project` directory contains a Vite application. Follow the steps below to dockerize it:
 
-1. Navigate to the `vite-app` directory:
+1. Navigate to the `vite-project` directory:
     ```bash
-    cd vite-app
-    ```
-
-2. Build the Docker image:
-    ```bash
-    docker build -t vite-app .
-    ```
-
-3. Run the Docker container:
-    ```bash
-    docker run -p 3000:3000 vite-app
+    cd vite-project
     ```
 
 ### Next.js Application
 
-The `nextjs-app` directory contains a Next.js application. Follow the steps below to dockerize it:
+The `next-docker` directory contains a Next.js application. Follow the steps below to dockerize it:
 
-1. Navigate to the `nextjs-app` directory:
+1. Navigate to the `next-docker` directory:
     ```bash
-    cd nextjs-app
-    ```
-
-2. Build the Docker image:
-    ```bash
-    docker build -t nextjs-app .
-    ```
-
-3. Run the Docker container:
-    ```bash
-    docker run -p 3000:3000 nextjs-app
+    cd next-docker
     ```
 
 ## Resources
