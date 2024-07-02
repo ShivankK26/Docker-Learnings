@@ -1,6 +1,6 @@
 # Docker Learnings
 
-Welcome to the Docker Learnings Repository! This Repository contains all the source code and resources needed to learn how to dockerize various applications, including a MERN application, React application, Vite application, and Next.js app.
+Welcome to the Docker Learnings Repository! This Repository contains all the Source Code and resources needed to learn how to Dockerize various applications, including a MERN application, React application, Vite application, and Next.js app.
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ Welcome to the Docker Learnings Repository! This Repository contains all the sou
 
 ## Introduction
 
-This repository is designed to help you learn Docker by providing practical examples of dockerizing different types of applications. Each project folder contains the necessary Docker configuration files and a step-by-step guide to help you understand the process.
+This Repository is Designed to help you learn Docker by providing Practical examples of Dockerizing different types of applications. Each Project folder contains the necessary Docker Configuration files and a step-by-step guide to help you Understand the Process.
 
 ## Prerequisites
 
@@ -34,19 +34,19 @@ Before you begin, make sure you have the following installed:
 1. Clone the repository:
     ```bash
     git clone https://github.com/ShivankK26/Docker-Learnings.git
-    cd Docker-Learnings
     ```
 
-2. Follow the instructions in each project folder to learn how to dockerize the specific application.
+2. Follow the instructions in each project folder to learn how to Dockerize the specific application.
 
 ## Project Structure
 
 The repository is organized into the following directories:
 
-- `mern-app/`: Contains the source code and Docker configuration for a MERN application.
-- `react-app/`: Contains the source code and Docker configuration for a React application.
-- `vite-app/`: Contains the source code and Docker configuration for a Vite application.
-- `nextjs-app/`: Contains the source code and Docker configuration for a Next.js application.
+- `hello-docker/`: Contains the Source Code and Docker configuration for a JavaScript application.
+-`mern-docker/`: Contains the Source Code and Docker Configuration for a MERN application.
+- `next-docker/`: Contains the Source Code and Docker Configuration for a Next.js application.
+- `react-docker/`: Contains the Source Code and Docker Configuration for a React application.
+- `vite-project/`: Contains the Source Code and Docker Configuration for a Vite Project.
 
 ## Dockerizing Applications
 
